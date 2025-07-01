@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush & Patutu Trip</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff4f4;
+      color: #333;
+      padding: 16px;
+      line-height: 1.6;
+    }
+    .day {
+      background: #ffe0e0;
+      margin: 12px 0;
+      padding: 12px;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+    .day h3 {
+      margin: 0;
+    }
+    .content {
+      display: none;
+      margin-top: 10px;
+    }
+    h2, h3 {
+      color: #c0392b;
+    }
+    .romantic-note {
+      font-style: italic;
+      color: #7f0000;
+    }
+  </style>
+</head>
+<body>
+  <h2>Ayush & Patutu's Romantic Journey</h2>
+  <p><strong>Dates:</strong> 12–19 Oct 2025</p>
+  <p><strong>Route:</strong> Kalyan -> Agra -> Vrindavan -> Amritsar -> Jaipur -> Kalyan</p>  <div class="day" onclick="toggle(this)">
+    <h3>Day 1: 12 Oct – Depart Kalyan</h3>
+    <div class="content">
+      <p>Train 12147, Departs: 16:35, Arrives Agra: 06:15 (13 Oct)</p>
+      <p>Fare: Sleeper Rs 1100 | 3AC Rs 2920 (for 2)</p>
+    </div>
+  </div>  <div class="day" onclick="toggle(this)">
+    <h3>Day 2: 13 Oct – Agra</h3>
+    <div class="content">
+      <p>Hotel: Taj Haveli / Sidhartha – Rs 950</p>
+      <p>Visits: Taj Mahal Rs 100, Agra Fort Rs 80, Mehtab Bagh Rs 60</p>
+      <p class="romantic-note">"Jab tum Taj Mahal dekh rahi hogi, main tumhari aankhon mein apna taj dhoondh raha honga..."</p>
+    </div>
+  </div>  <div class="day" onclick="toggle(this)">
+    <h3>Day 3: 14 Oct – Vrindavan</h3>
+    <div class="content">
+      <p>Visit: Banke Bihari Temple, Prem Mandir (Free)</p>
+      <p>Train to Amritsar via Ambala</p>
+      <p>Fare: Sleeper Rs 1300 | 3AC Rs 3800 (for 2)</p>
+      <p class="romantic-note">"Radha Krishna ki galiyon mein humara pyaar bhi ek kahaani ban jaaye."</p>
+    </div>
+  </div>  <div class="day" onclick="toggle(this)">
+    <h3>Day 4: 15 Oct – Amritsar</h3>
+    <div class="content">
+      <p>Hotel: Urban Galaxy / Ram Lodge – Rs 1000</p>
+      <p>Visits: Golden Temple, Jallianwala Bagh, Wagah Border</p>
+      <p class="romantic-note">"Golden Temple ki roshni mein tumhara chehra aur bhi noorani lagta hai."</p>
+    </div>
+  </div>  <div class="day" onclick="toggle(this)">
+    <h3>Day 5: 16 Oct – Train to Jaipur</h3>
+    <div class="content">
+      <p>Train 19612, Departs: 15:45, Arrives: 08:10 (17 Oct)</p>
+      <p>Fare: Sleeper Rs 1300 | 3AC Rs 3700 (for 2)</p>
+    </div>
+  </div>  <div class="day" onclick="toggle(this)">
+    <h3>Day 6: 17 Oct – Jaipur</h3>
+    <div class="content">
+      <p>Hotel: Hotel Kalyan / Arya Niwas – Rs 1200</p>
+      <p>Visits: Amer Fort Rs 200, Hawa Mahal Rs 100, City Palace Rs 150</p>
+      <p class="romantic-note">"Hawa Mahal se hawa ka jhonka bhi tumhara naam lekar guzarta hai..."</p>
+    </div>
+  </div>  <div class="day" onclick="toggle(this)">
+    <h3>Day 7: 18 Oct – Jaipur to Kalyan</h3>
+    <div class="content">
+      <p>Train 12978, Departs: 17:00, Arrives: 07:55 (19 Oct)</p>
+      <p>Fare: Sleeper Rs 1360 | 3AC Rs 3800 (for 2)</p>
+    </div>
+  </div>  <div class="day" onclick="toggle(this)">
+    <h3>Day 8: 19 Oct – Back to Kalyan</h3>
+    <div class="content">
+      <p>Trip ends with memories & love 💞</p>
+    </div>
+  </div>  <h3>Total Budget (for 2 people)</h3>
+  <p>Sleeper: Rs 18,000 | 3AC: Rs 28,000 (approx)</p>  <script>
+    function toggle(el) {
+      const content = el.querySelector('.content');
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+  </script></body>
+</html>
